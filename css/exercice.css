@@ -9,7 +9,27 @@
   align-items: center;
 }
 /*3. exercice-align-content-1 */
+.exercice-align-content-1 .container-small{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
 
+.exercice-align-content-1 .element-red {
+  order: 1;
+}
+
+.exercice-align-content-1 .element-blue {
+  order: 1;
+}
+
+.exercice-align-content-1 .element-green {
+  order: 1;
+}
+
+.exercice-align-content-1 .element-pink {
+  order: -1;
+}
 /*4. exercice-align-content-2 */
 
 /*5. exercice-align-content-3 */
