@@ -37,7 +37,28 @@
   justify-content: center;
 }
 /*5. exercice-align-content-3 */
+.exercice-align-content-3 .container-small{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+}
 
+.exercice-align-content-3 .element-red{
+  order: 1;
+}
+
+.exercice-align-content-3 .element-blue{
+  order: 1;
+}
+
+.exercice-align-content-3 .element-green{
+  order: 1;
+}
+
+.exercice-align-content-3 .element-pink{
+  order: -1;
+}
 /*6. exercice-flex-grow-1 */
 
 /*7. exercice-flex-grow-2 */
