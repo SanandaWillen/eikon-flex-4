@@ -31,7 +31,11 @@
   order: -1;
 }
 /*4. exercice-align-content-2 */
-
+.exercice-align-content-2 .container-small{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /*5. exercice-align-content-3 */
 
 /*6. exercice-flex-grow-1 */
